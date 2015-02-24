@@ -1,0 +1,1 @@
+﻿<%@ Application Inherits="CloudApplicationNet.Presentation.Configuration.MvcApplication" Language="C#" %>
