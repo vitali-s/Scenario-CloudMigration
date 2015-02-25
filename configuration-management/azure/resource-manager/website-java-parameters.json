@@ -1,0 +1,18 @@
+{
+    "siteName": {
+        "value": "cloud-application-java"
+    },
+    "hostingPlanName": {
+        "value": "MyHostingPlan"
+    },
+    "siteLocation": {
+        "value": "West Europe"
+    },
+    "sku": {
+        
+        "value": "Shared"
+    },
+    "workerSize": {
+        "value": "1"
+    }
+}
