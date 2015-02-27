@@ -106,6 +106,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\ImportantDocument.pdf" />
+    <Content Include="content\Important Document #2.pdf" />
+    <Content Include="content\Important Document #3.pdf" />
+    <Content Include="content\Important Document #4.pdf" />
+    <Content Include="content\Not Important Document.pdf" />
     <None Include="Properties\PublishProfiles\deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +124,7 @@
     <Content Include="javascript\angular-route.min.js" />
     <Content Include="javascript\angular.min.js" />
     <Content Include="javascript\cloud-application.js" />
+    <Content Include="javascript\content-controller.js" />
     <Content Include="styles\site.css" />
     <Content Include="styles\bootstrap-theme.css" />
     <Content Include="styles\bootstrap.css" />
@@ -156,6 +162,7 @@
   <ItemGroup>
     <Content Include="views\application.html" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

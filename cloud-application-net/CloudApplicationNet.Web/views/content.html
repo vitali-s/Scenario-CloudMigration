@@ -1,3 +1,15 @@
-﻿<div>
-    content
+﻿<h3>The list of available content</h3>
+
+<div ng-controller="contentController">
+
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+        </tr>
+        <tr ng-repeat="item in content">
+            <td>{{item.name}}</td>
+            <td><a href="/content/{{item.link}}" title="{{item.name}}" target="_blank">{{item.name}}</a></td>
+        </tr>
+    </table>
 </div>

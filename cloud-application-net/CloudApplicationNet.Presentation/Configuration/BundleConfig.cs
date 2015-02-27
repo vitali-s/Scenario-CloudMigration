@@ -10,7 +10,8 @@ namespace CloudApplicationNet.Presentation.Configuration
                       "~/javascript/angular.min.js",
                       "~/javascript/angular-resource.min.js",
                       "~/javascript/angular-route.min.js",
-                      "~/javascript/cloud-application.js"));
+                      "~/javascript/cloud-application.js",
+                      "~/javascript/content-controller.js"));
 
             bundles.Add(new StyleBundle("~/styles/css").Include(
                       "~/styles/bootstrap.css",
